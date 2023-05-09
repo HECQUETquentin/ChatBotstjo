@@ -1,3 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, grey, white);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 h1{
     color : red
+}
+.btLink{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 8px;
+    transition: .3s;
+}
+.btLink:hover{
+    background: red;
+}
+.form-question{
+    padding: 10px;
+    margin: 50px 10px;
+}
+.form-button{
+    padding: 10px;
+}
+.answer{
+    text-align: right;
+}
+.question{
+    text-align: left;
+}
+.test{
+    width: 500px;
+    margin: auto;
+    text-align: center;
 }
