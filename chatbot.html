@@ -11,9 +11,10 @@
 <body>
     <div class="test">
         <h1>ChatBot</h1>
-        <form id="form-api">
-            <input class="form-question" type="text" id="question" name="question">
-            <input class="form-button" type="submit" value="Posez votre question">
+        <form id="form-api" autocomplete="off">
+            <input list="datalist" class="form-question" type="search" id="inputdialog" name="request">
+            <datalist id="datalist">
+            </datalist>
         </form>
         <div class="message">
             <div class="question"></div>
